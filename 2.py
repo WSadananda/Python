@@ -1,3 +1,4 @@
+#squring
 thelist = []
 sqrlist=[]
 print("enter your number\n")
@@ -10,3 +11,4 @@ for i in thelist:
     sqrt=i*i
     sqrlist.append(sqrt)
 print(sqrlist)
+print(i)
