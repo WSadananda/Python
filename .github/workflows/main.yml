@@ -3,6 +3,8 @@ name: action cicd
 on:
   push:
     branches: ["master"]
+  pull_requests:
+    branches: ["master"]
 
 jobs:
   action:
