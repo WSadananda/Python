@@ -4,6 +4,6 @@ class Car:
         self.model=model
         self.year=year
 
-Carobj=Car("Audi","V1","2015")
+Carobj=Car("BMW","V1","2015")
 print(Carobj.brand,Carobj.model,Carobj.year)
 
