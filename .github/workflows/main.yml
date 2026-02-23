@@ -2,7 +2,7 @@ name: action cicd
 
 on:
   push:
-    branches: ["brnch_1"]
+    branches: ["master"]
 
 jobs:
   action:
