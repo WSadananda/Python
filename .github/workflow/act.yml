@@ -3,6 +3,8 @@ name: Python CI
 on:
   push:
     branches: ["master"]
+  pull_requests: 
+    branches: ["master"]
 
 jobs:
   test:
