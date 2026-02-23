@@ -1,14 +1,16 @@
 name: action cicd
+
 on:
   push:
-      branches:["master"]
+    branches: ["brnch_1"]
+
 jobs:
-    action:
-     runs-on: ubunto-latest
-    
+  action:
+    runs-on: ubuntu-latest
+
     steps:
-     
-        - name: Checkout code
-            uses: actions/checkout@v4
-        - name: run command
-             run: echo "run success"
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: run command
+        run: echo "run success"
